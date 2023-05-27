@@ -1,0 +1,23 @@
+{
+  "identifier": "ie.boboco.popclip.extension.airmail",
+  "name": "Airmail2Message",
+  "icon": "circle am",
+  "regex": "airmail://[^\\s]+",
+  "shell script file": "Airmail2Message.py",
+  "interpreter": "python3",
+  "app": {
+    "name": "Mail",
+    "link": "http://apple.com/",
+    "check installed": true,
+    "bundle identifiers": [
+	"com.apple.mail"
+    ]
+  },
+  "description": "Open an airmail URL using Apple Mail",
+  "credits": [
+    {
+      "link": "https://github.com/ebowman",
+      "name": "Eric Bowman"
+    }
+  ]
+}
